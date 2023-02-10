@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import {Base64} from "base64/base64.sol";
+import {Base64} from "base64-sol/base64.sol";
 
 contract SVGDelegate {
     function tokenUri(uint256 tokenId) external view returns (string memory) {
