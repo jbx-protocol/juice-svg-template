@@ -2,3 +2,5 @@
 .vscode
 cache/
 node_modules/
+/lib
+/out

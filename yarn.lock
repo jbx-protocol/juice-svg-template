@@ -30,10 +30,10 @@
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.7.0.tgz#6ce9ae168e74fecf287be17062b590852c311892"
   integrity sha512-0odtFdXu/XHtjQXJYA3u9G0G8btm0ND5Cu8M7i5vhEcE8/HmF4Lbdqanwyv4uQTr2tx6b7fQRmgLrsnpQlmnig==
 
-"@jbx-protocol/juice-contracts-v3@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.3.tgz#0b0acd14a6ad51da4e425b8d55bad8db5c7dbbc1"
-  integrity sha512-lYXRYlhUzsR9xLrzXTq95Ps3rE6xNDrgKhZ+yiitdPRRkAPPA887BtSt72BamsKUiHl3xAoKGYIvv+3b/h9/UA==
+"@jbx-protocol/juice-contracts-v3@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.5.tgz#b75e5547d3ffe660a3fb9124e5e747fc52b5d642"
+  integrity sha512-pQSJbzz96nzHc2HDlN0Xx6uJufnRPAiUsilSwGRLjX38KZaeOtC7LU+YY0G5OHpH8tQPyAC/G/m5EwjpObIh3A==
 
 "@openzeppelin/contracts@^4.8.1":
   version "4.8.1"
@@ -46,6 +46,11 @@
   integrity sha512-vOBN0P1xjT0rJqQs8DZ1B48qO0tHx6tabfGomsWC57EUMQzEYY/Kw8jS6uVbpeJRes1X+mPXcxmEoilAvUN7Ng==
   dependencies:
     prb-math "^2.4.1"
+
+base64-sol@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/base64-sol/-/base64-sol-1.1.0.tgz#39c3c91a35790b6eb3b8e73114b46bacf0fc2865"
+  integrity sha512-mksLxtFyBcXd3LYK5UxyMj29YR//zoaeXpJaKRbnLQC0E99oCJl7VpKaJDXWAuTvnhxBU9XNYzhxSL8umsrxWg==
 
 bn.js@^5.2.1:
   version "5.2.1"
