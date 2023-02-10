@@ -17,9 +17,10 @@ contract SVGDelegate {
         );
         parts[2] = Base64.encode(
             abi.encodePacked(
-                '<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">',
-                '<circle cx="50" cy="50" r="50" />',
-                '</svg>'
+                '<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">'
+                ,'<rect width="1000" height="1000" fill="beige"/>'
+                ,'<circle r="50" cx="450" cy="450" fill="teal" />'
+                ,'</svg>'
             )
         );
         parts[3] = string('"}');
