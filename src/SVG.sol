@@ -11,21 +11,21 @@ contract SVGDelegate {
         parts[1] = string(
             abi.encodePacked(
                 '{"name":"XYZ",',
-                 '"description":"Description Text"',
+                 '"description":"Description Text",',
                  '"image":"data:image/svg+xml;base64,'
             )
         );
         parts[2] = Base64.encode(
             abi.encodePacked(
                 '<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">',
-                // ADD CONTENT
+                '<circle cx="50" cy="50" r="50" />',
                 '</svg>'
             )
         );
         parts[3] = string('"}');
         string memory uri = string.concat(
             parts[0],
-            Base64.encode(abi.encodePacked(parts[1], parts[2], parts[3]))
+            Base64.encode(abi.encodePacked(parts[1], parts[2],parts[3]))
         );
         return uri;
     }
