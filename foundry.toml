@@ -2,5 +2,8 @@
 src = 'src'
 out = 'out'
 libs = ['lib', 'node_modules']
+# The node_modules reference allows Forge to find libraries installed via `yarn add ...`
+
+auto_detect_solc = true
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
