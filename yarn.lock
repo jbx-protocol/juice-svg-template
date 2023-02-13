@@ -30,10 +30,17 @@
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.7.0.tgz#6ce9ae168e74fecf287be17062b590852c311892"
   integrity sha512-0odtFdXu/XHtjQXJYA3u9G0G8btm0ND5Cu8M7i5vhEcE8/HmF4Lbdqanwyv4uQTr2tx6b7fQRmgLrsnpQlmnig==
 
-"@jbx-protocol/juice-contracts-v3@^2.0.5":
+"@jbx-protocol/juice-contracts-v3@^2.0.0", "@jbx-protocol/juice-contracts-v3@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@jbx-protocol/juice-contracts-v3/-/juice-contracts-v3-2.0.5.tgz#b75e5547d3ffe660a3fb9124e5e747fc52b5d642"
   integrity sha512-pQSJbzz96nzHc2HDlN0Xx6uJufnRPAiUsilSwGRLjX38KZaeOtC7LU+YY0G5OHpH8tQPyAC/G/m5EwjpObIh3A==
+
+"@jbx-protocol/project-handles@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@jbx-protocol/project-handles/-/project-handles-2.0.4.tgz#08db2fc1f6fd51419566f0a217c47f5374e839fd"
+  integrity sha512-NT8G0yt0cnpm1N+IqpKnej6xTC2D42/j9zv/DdLXhvyU+rCXqQ//oUg3cezZdL8AGi2l74rC5odE1j6FFrUrxA==
+  dependencies:
+    "@jbx-protocol/juice-contracts-v3" "^2.0.0"
 
 "@openzeppelin/contracts@^4.8.1":
   version "4.8.1"
