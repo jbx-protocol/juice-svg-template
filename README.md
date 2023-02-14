@@ -21,3 +21,6 @@ To test rendering Juicebox Project Handles in your SVG:
 4. To fork Goerli instead of Mainnet, first swap which lines are commented in `SVG.t.sol`'s `setUp()` function, then run the command in step 2 with a Goerli RPC URL. 
 
 More information on Project Handles including its testnet address is available in [the Juicebox Docs](https://info.juicebox.money/dev/api/contracts/or-utilities/jbprojecthandles/).
+
+## Credits
+This repo draws on work by [Jango](https://github.com/mejango), [DrGorilla](https://github.com/drgorillamd), [Peripheralist](https://github.com/peripheralist), and [Jeton Connu](https://github.com/jeton-connu).
