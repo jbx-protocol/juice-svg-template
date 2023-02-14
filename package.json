@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@ensdomains/ens-contracts": "^0.0.17",
     "@jbx-protocol/juice-contracts-v3": "^2.0.5",
     "@jbx-protocol/project-handles": "^2.0.4",
     "@openzeppelin/contracts": "^4.8.1",
