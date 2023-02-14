@@ -10,8 +10,8 @@ contract EmptyTest is Test {
     IJBProjectHandles projectHandles;
 
     function setUp() public {
-        // projectHandles = IJBProjectHandles(0xE3c01E9Fd2a1dCC6edF0b1058B5757138EF9FfB6); // Mainnet
-        projectHandles = IJBProjectHandles(0x3ff1f0583a41CE8B9463F74a1227C75FC13f7C27); // Goerli
+        projectHandles = IJBProjectHandles(0xE3c01E9Fd2a1dCC6edF0b1058B5757138EF9FfB6); // Mainnet
+        // projectHandles = IJBProjectHandles(0x3ff1f0583a41CE8B9463F74a1227C75FC13f7C27); // Goerli
         svgContract = new SVGDelegate(projectHandles);
     }
 
