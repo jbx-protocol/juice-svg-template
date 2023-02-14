@@ -8,3 +8,12 @@ Template for creating onchain SVGs
 
 
 Note: `foundry.toml`'s allows Forge to find libs in `/node_modules` without an explicit remapping. For this reason there is no remappings.txt needed. 
+
+## Project Handles
+To test rendering Juicebox Project Handles in your SVG: 
+1. Switch to the `project-handles` branch. 
+2. Run `forge test --fork-url $RPC_URL -v --via-ir --ffi`, replacing `$RPC_URL` with your own RPC provider and API key. API providers include Infura and Alchemy. An RPC url might look like `https://mainnet.infura.io/v3/xyzabc123xyzabc123xyzabc123`.
+3. If you append `--fork-block-number BLOCK_NUMBER` to the above, replacing `BLOCK_NUMBER` with a recent block height, Forge will cache the fork and the tests will run faster. Do not be surprised if values don't change when you set a new project handle onchain.
+4. To fork Goerli instead of Mainnet, first swap which lines are commented in `SVG.t.sol`'s `setUp()` function, then run the command in step 2 with a Goerli RPC URL. 
+
+More information on Project Handles including its testnet address is available in [the Juicebox Docs](https://info.juicebox.money/dev/api/contracts/or-utilities/jbprojecthandles/).
