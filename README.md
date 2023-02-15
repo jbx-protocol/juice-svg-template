@@ -24,7 +24,7 @@ To test rendering Juicebox Project Handles in your SVG:
 More information on Project Handles including its testnet address is available in [the Juicebox Docs](https://info.juicebox.money/dev/api/contracts/or-utilities/jbprojecthandles/).
 
 ## Onchain Typeface: Capsules
-You can incorporate other onchain assets, such as [Peripheralist's Capsules typeface](https://github.com/peripheralist/typeface), into your onchain SVG. The entire font is stored onchain, so you can incorporate it into your SVG art without worrying about offchain depenencies such as the fons built-in to the viewer's operating system, or a popular Fonts API being unavailable when the SVG is viewed.
+You can incorporate other onchain assets, such as [Peripheralist's Capsules typeface](https://github.com/peripheralist/typeface), into your onchain SVG. The entire font is stored onchain, so you can incorporate it into your SVG art without worrying about offchain depenencies such as the fonts built-in to the viewer's operating system, or a popular Fonts API being unavailable when the SVG is viewed.
 
 To test rendering an SVG using Capsules: 
 
