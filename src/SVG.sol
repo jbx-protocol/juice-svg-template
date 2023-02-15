@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 import {Base64} from "base64-sol/base64.sol"; // Facilitates encoding SVG as base64
 import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
-import "@jbx-protocol/juice-contracts-v3";
+import {JBTokenStore} from "@jbx-protocol/juice-contracts-v3/contracts/JBTokenStore.sol"; // Example importing a JBP contract. Not used below.
 
 contract SVGDelegate {
     using Strings for uint256; // This lets you invote the Strings library on uints. Useful for converting uints to strings for display in SVGs. 
