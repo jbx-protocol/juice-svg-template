@@ -3,6 +3,7 @@ pragma solidity ^0.8.17;
 
 import {Base64} from "base64-sol/base64.sol"; // Facilitates encoding SVG as base64
 import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
+import {JBTokenStore} from "@jbx-protocol/juice-contracts-v3/contracts/JBTokenStore.sol"; // Example importing a JBP contract. Not used below.
 import {IJBProjectHandles} from "@jbx-protocol/project-handles/contracts/interfaces/IJBProjectHandles.sol";
 
 contract SVGDelegate {
